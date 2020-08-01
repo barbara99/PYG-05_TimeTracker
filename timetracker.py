@@ -1,17 +1,27 @@
 
 import csv
 
-def getHours():             #function to calculate hours spent on task
+def getHours():            
+    #function to calculate hours spent on task
     #Global variables to be used in other functions
-    global hours   #number of hours spent
-    global today        #gets date of making entry 
+    
+    global hours   
+    #number of hours spent
+    
+    global today        
+    #gets date of making entry
+    
     global start_time
     global end_time, task, description
     print("This program calculates fees paid per hour.Enter hour in H:m using the 24 hour format.")
     today = date.today()
     
-    start_time = input('Enter time started in H:m format: ')        #gets start time from user
-    end_time = input('Enter time ended in H:m format: ')       #gets time of completion of tsk
+    start_time = input('Enter time started in H:m format: ')        
+    #gets start time from user
+    
+    end_time = input('Enter time ended in H:m format: ')       
+    #gets time of completion of tsk
+    
     task= input('Enter task name: ')
     description = input('Give a brief description of task: ')
     
