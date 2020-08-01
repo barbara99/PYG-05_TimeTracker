@@ -3,6 +3,7 @@ A time tracker to calculate hours spent on a task and the amount of money made t
 PROJECT TITLE: TIME AND WAGE TRACKER
 
 DOCUMENTATION
+
 INTRODUCTION:
 This program was written by three success driven female tech enthusiasts. We are trainees at the Azubi Africa Program with the zeal to study and come into the job market to blaze trails. This code is our response to an assignment given us at the Azubi Africa program, 2020. It is to test our understanding and application of the python program. 
 Behind this written code are zeal for success, drive for change, dedication to work and tireless work. We exhibited exemplary team work geared towards one goal. We all contributed immensely towards the success of this assignment.
