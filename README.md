@@ -24,17 +24,21 @@ PROGRAM DEPENDENCIES:
 USER INTERACTION:
 •	The program uses the system’s date for each day that the program is used.
 •	The user inputs the time started and time ended for each task, the task name and a brief description of the task.
+
 TIMELINE:
 •	We had approximately two days to work on and complete this program.
+
 DESIGN:
 The program has three separate functions;
 1.	Gethours Functions
 2.	GetPrice Function
 3.	Save to CSV Function
+
 RUNNING THE TESTS:
 The user is prompted to enter the start time, the end time, the name of the task and the description. 
 The number of hours and the wages earned are displayed to the user.
 The csv file which stores the data for future reference includes the wage per hour, the start time, the end time, the name of the task and the description. 
+
 DEPLOYMENT:
 A GUI can be created for the system as the front end and the code will be the front end. Buttons can be used where before the user starts working he can click the start button and when he is done with the task he will click end button. The details of hours and wages earned are then displayed to the user. 
 
@@ -48,5 +52,6 @@ Belinda.Osei-Tutu@azubiafrica.org
 
 LICENSE:
 This program has no license.
+
 ACKNOWLEDGMENTS:
 •	Inspiration: Azubi Africa Program, 2020
