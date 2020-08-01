@@ -30,10 +30,22 @@ def getHours():             #function to calculate hours spent on task
     total_seconds=time_elapsed.seconds
     #print(total_seconds)
 
-    hours = total_seconds/3600                    #calculates total time spent on task
+    hours = total_seconds/3600     
+    
+    #calculates total time spent on task
+    
     print("Number of hours spent on task is ",hours,"hours.")
-    def saveToCsv():           
+    
+    def getPrice():            
+        #calculates total amount for hours
+    total_price = hours*5
+    global price
+    price =round(total_price,2)
+    print("Total Price is $",price)
+    def saveToCsv():   
+        
         #saves input to csv file
+        
     fee = '$5'
     with open('timeTracker.csv', 'a', newline='') as file:
         #column headers
@@ -57,9 +69,3 @@ def getHours():             #function to calculate hours spent on task
 
 
     
-    
-def getPrice():            #calculates total amount for hours
-    total_price = hours*5
-    global price
-    price =round(total_price,2)
-    print("Total Price is $",price)
