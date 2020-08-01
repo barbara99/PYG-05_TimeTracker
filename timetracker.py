@@ -31,5 +31,5 @@ def getHours():             #function to calculate hours spent on task
     total_seconds=time_elapsed.seconds
     #print(total_seconds)
 
-    hours = total_seconds/3600                    #calculates total time spent 
+    hours = total_seconds/3600                    #calculates total time spent on task
     print("Number of hours spent on task is ",hours,"hours.")
