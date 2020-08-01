@@ -42,6 +42,7 @@ def getHours():             #function to calculate hours spent on task
     global price
     price =round(total_price,2)
     print("Total Price is $",price)
+    
     def saveToCsv():   
         
         #saves input to csv file
